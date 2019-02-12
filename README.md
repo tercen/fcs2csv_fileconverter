@@ -8,7 +8,8 @@
 The file converter requires R to run, R comes with Tercen Desktop
 Install Tercen Desktop, this will also install R. If you have already an R installation then proceed to the "usage with a previous R installation section" (see below).
 
-Install Tercen Desktop
+Install Tercen Desktop.
+
 Download or clone the complete repository
 
 ```
