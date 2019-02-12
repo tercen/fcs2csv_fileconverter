@@ -1,0 +1,83 @@
+PackratFormat: 1.4
+PackratVersion: 0.4.8.52
+RVersion: 3.3.2
+Repos: CRAN=https://cran.rstudio.com,
+    BioCsoft=https://bioconductor.org/packages/3.4/bioc
+
+Package: BH
+Source: CRAN
+Version: 1.69.0-1
+
+Package: Biobase
+Source: CRAN
+Version: 2.34.0
+Requires: BiocGenerics
+
+Package: BiocGenerics
+Source: CRAN
+Version: 0.20.0
+
+Package: DEoptimR
+Source: CRAN
+Version: 1.0-8
+
+Package: Rcpp
+Source: CRAN
+Version: 1.0.0
+
+Package: cluster
+Source: CRAN
+Version: 2.0.5
+Hash: 80ca2d4d18a212e4dbefbfc39f079121
+
+Package: corpcor
+Source: CRAN
+Version: 1.6.9
+
+Package: flowCore
+Source: CRAN
+Version: 1.40.6
+Requires: BH, Biobase, BiocGenerics, Rcpp, corpcor, graph, matrixStats,
+    rrcov
+
+Package: graph
+Source: CRAN
+Version: 1.52.0
+Requires: BiocGenerics
+
+Package: lattice
+Source: CRAN
+Version: 0.20-34
+Hash: 4390fc5602fd36017be70a27f7123ff3
+
+Package: matrixStats
+Source: CRAN
+Version: 0.54.0
+
+Package: mvtnorm
+Source: CRAN
+Version: 1.0-8
+
+Package: packrat
+Source: github
+Version: 0.4.8-52
+Hash: 7f9597c44599820158b7dd1693153db9
+GithubRepo: packrat
+GithubUsername: rstudio
+GithubRef: master
+GithubSha1: 4b3e4025404f98d25fb73799e86c1762effe5d7e
+
+Package: pcaPP
+Source: CRAN
+Version: 1.9-73
+Requires: mvtnorm
+
+Package: robustbase
+Source: CRAN
+Version: 0.93-3
+Requires: DEoptimR
+
+Package: rrcov
+Source: CRAN
+Version: 1.4-7
+Requires: cluster, lattice, mvtnorm, pcaPP, robustbase
