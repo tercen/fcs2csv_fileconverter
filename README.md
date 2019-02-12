@@ -31,13 +31,13 @@ It takes a fcs file as input.
 
 ##### Usage with a previous R installation
 
-First locate where the R installation directory is located.
+First locate where the R installation directory is.
 
-Modify the `run-win.bat`  file and change the location indicated by the `RSCRIPT_EXE` 
+Modify the `run-win.bat`  file and change the path location of the indicated executable indicated by `RSCRIPT_EXE` in the file.
 
-`RSCRIPT_EXE` represents the location of the RScript.exe, default is the RScript.exe which comes with Tercen Desktop.
+`RSCRIPT_EXE` represents the location of the `RScript.exe` program, default is the `RScript.exe` which comes with Tercen Desktop. It is usually found in the `bin` folder of the R installation directory.
 
-Once it is modified.
+Once the `run-win.bat` is modified with the correct location of `RScript.exe` then proceed.
 
 Run on Windows:
 
