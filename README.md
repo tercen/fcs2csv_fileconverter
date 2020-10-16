@@ -1,7 +1,8 @@
-# fcs2cvs file converter
+# fcs2csv file converter
 
-#### Description
-`fcs2cvs` converts a fcs file into a csv file.
+##### Description
+
+`fcs2csv` converts a fcs file into a csv file.
 
 ##### Usage
 
@@ -29,7 +30,6 @@ run-win.bat
 
 It takes a fcs file as input.
 
-
 ##### Usage with a previous R installation
 
 First locate where the R installation directory is.
@@ -47,7 +47,6 @@ double click on the file
 ```
 run-win.bat
 ```
-
 
 ##### Output file
 
